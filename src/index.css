@@ -2,3 +2,6 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+*{
+    font-family: "Inter", sans-serif;
+}
