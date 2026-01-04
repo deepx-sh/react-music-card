@@ -37,7 +37,7 @@ const Card = () => {
                       </div>
                   </div>
                   
-                  <div className='flex justify-between text-[10px] text-neutral-400 mt-1 font-mono'>
+                  <div className='flex justify-between text-[10px] text-neutral-400 mt-1'>
                       <span>1:25</span>
                       <span>4:05</span>
                   </div>
