@@ -28,7 +28,7 @@ It features smooth animations, dark mode support, and a premium glassmorphism de
 
 ## Live Demo
 
-Check out the live demo [here]().
+Check out the live demo [here](https://react-music-card.vercel.app).
 
 ## Getting Started
 
