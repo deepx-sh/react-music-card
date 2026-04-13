@@ -25,7 +25,7 @@ const Card = () => {
                   </div>
 
                   <button onClick={() => setIsLiked(!isLiked)} className='transition-transform active:scale-75 focus:outline-none '>
-                      <Heart size={20} className={`transition-colors duration-300 ${isLiked ? 'fill-red-500 text-red-500' : 'text-neutral-400 dark:text-neutral-500 hover:text-neutral-600 dark:hover:text-neutral-300'}`} />
+                      <Heart size={20} className={`transition-colors cursor-pointer duration-300 ${isLiked ? 'fill-red-500 text-red-500' : 'text-neutral-400 dark:text-neutral-500 hover:text-neutral-600 dark:hover:text-neutral-300'}`} />
                    </button>
                     
               </div>
@@ -47,11 +47,11 @@ const Card = () => {
                   
                   <div className='flex gap-3'>
                       <button onClick={() => setThumbState(thumbState === 'down' ? null : 'down')} className='transition-transform active:scale-90 focus:outline-none'>
-                          <ThumbsDown size={18} className={`transition-colors ${thumbState=== 'down' ? 'text-black dark:text-white fill-black dark:fill-white':'text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300'}`}/>
+                          <ThumbsDown size={18} className={` cursor-pointer transition-colors ${thumbState=== 'down' ? 'text-black dark:text-white fill-black dark:fill-white':'text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300'}`}/>
                       </button>
 
                       <button onClick={() => setThumbState(thumbState === 'up' ? null : 'up')} className='transition-transform active:scale-90 focus:outline-none'>
-                          <ThumbsUp size={18} className={`transition-colors ${thumbState=== 'up' ? 'text-black dark:text-white fill-black dark:fill-white':'text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300'}`}/>
+                          <ThumbsUp size={18} className={`cursor-pointer transition-colors ${thumbState=== 'up' ? 'text-black dark:text-white fill-black dark:fill-white':'text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300'}`}/>
                       </button>
                   </div>
 
