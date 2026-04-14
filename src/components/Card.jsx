@@ -59,7 +59,7 @@ const Card = () => {
                       <SkipBack size={20} className='text-neutral-800 dark:text-white cursor-pointer hover:opacity-70 transition-opacity' />
                       
                       <button onClick={() => setIsPlaying(!isPlaying)} className='h-10 w-10 flex items-center justify-center rounded-full bg-neutral-900 dark:bg-white text-white dark:text-black shadow-lg hover:scale-105 active:scale-95 transition-all'>
-                          {isPlaying? <Pause size={18} fill='currentColor'/>:<Play size={18} fill='currentColor' className='ml-0.5'/>}
+                          {isPlaying? <Pause size={18} fill='currentColor' classname="cursor-pointer"/>:<Play size={18} fill='currentColor' className='ml-0.5 cursor-pointer'/>}
                       </button>
                     <SkipForward size={20} className='text-neutral-800 dark:text-white cursor-pointer hover:opacity-70 transition-opacity' />
 
